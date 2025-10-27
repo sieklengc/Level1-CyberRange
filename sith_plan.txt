@@ -1,0 +1,14 @@
+Darth Vader - Operational Notes
+
+Location: Death Star
+
+Commander: Darth Vader
+
+Summary:
+Our intelligence cells report that the Rebel sympathizers are hiding important files across the galaxy. The Emperor has ordered Darth Vader to reclaim assets and secure Imperial dominion.
+
+Primary objective:
+- Locate and retrieve any flags. The main asset will be locked by Vader's 10 numeric password. 
+- Darth Vader has the classified information on his account. 
+
+End of transmission.
