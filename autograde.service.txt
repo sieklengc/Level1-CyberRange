@@ -1,0 +1,12 @@
+[Unit]
+Description=Starwars CTF Autograde Agent
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/python3 /opt/starwars/autograde_agent.py
+User=root
+Group=root
+Nice=10
+TimeoutStartSec=60

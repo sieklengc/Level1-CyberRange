@@ -1,0 +1,5 @@
+1) 1905
+2) 3f9fa8188bfe3a92e5409dfb25930fd0245d71cc9edf101224e0fd1f77eff1ec
+3) /opt/starwars/Mustafar_Lair/sith_plan.txt
+4) FLAG{VADER_DOMINION_1977}
+5) My Secret is that I am Luke Skywalker's Father.

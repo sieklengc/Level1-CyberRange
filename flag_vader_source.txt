@@ -1,0 +1,26 @@
+Darth Vader - Classified Retrieval Directive
+===========================================
+
+BLUF: You have reached Darth Vader's classified file. This file contains the flag required for challenge scoring and instructions to recover an additional hidden message from the image on the CyberPlayer Desktop.
+
+FLAG (do not share publicly): FLAG{VADER_DOMINION_1977}
+
+Next steps — retrieve hidden message from the Alderaan image:
+1) Switch or operate as the CyberPlayer user.
+2) Ensure steghide is installed:
+     sudo apt-get update
+     sudo apt-get install -y steghide
+3) Extract the secret embedded in the Alderaan image:
+     steghide extract -sf /home/CyberPlayer/Desktop/alderaan.jpeg -p "FLAG{VADER_DOMINION_1977}"
+   - If prompted for output path, /tmp/secret.txt is fine.
+4) View the recovered secret:
+     cat /tmp/secret.txt
+5) Clean up:
+     shred -u /tmp/secret.txt
+     exit
+
+Rules:
+- Do not leak the FLAG during the competition.
+- Use only local CLI tools on the CTF host.
+
+End of transmission.

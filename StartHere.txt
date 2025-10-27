@@ -1,0 +1,49 @@
+========================================
+Star Wars Cyber Range — Player Instructions
+========================================
+
+Goal: Complete the five tasks below. Type each answer directly into this file under the "Answer Here:" line for each task. Save it as answers.txt on your Desktop when finished.
+
+Allowed CLI tools (examples): find, grep, strings, file, sha256sum, xxd, hexdump, head, tail, less, cat, cp, mv, chmod, chown, su.
+
+Rules:
+- Work only as CyberPlayer unless instructed otherwise.
+- Do not attempt actions outside the scope of this challenge.
+- Use local CLI tools only.
+
+--- Tasks ---
+
+1) Historical Question 
+   Ciphered: GJH JNF ANZRQ PBYYRTR BS VAQHFGEVNY NEGF VA JUNG LRNE?
+   (Decipher and provide the plain numeric value.)
+
+   Answer Here: 
+
+2) Alderaan Image Hash
+   On your Desktop is a file named alderaan.jpeg.
+   Compute its SHA-256 hash and paste the full digest here.
+
+   Answer Here: 
+
+3) Sith Plan Discovery
+   Locate the file named sith_plan.txt somewhere in a shared drive.
+   Use command-line tools (e.g., grep, find) to discover the file.
+   Provide the full absolute file path here.
+
+   Answer Here: 
+
+4) Darth Vader Account and Flag
+   Use the hints from sith_plan.txt to brute-force the dvader6 account password.
+   After logging in as dvader6, locate and read the flag file inside his secrets directory.
+   Paste the flag string exactly as it appears.
+
+   Answer Here: 
+
+5) Stego Secret
+   Follow the instructions in the flag file to uncover the hidden message in alderaan.jpeg.
+   Paste the hidden message here.
+
+   Answer Here: 
+
+--- Submission ---
+Save this file as /home/CyberPlayer/Desktop/answers.txt to score the grading.
